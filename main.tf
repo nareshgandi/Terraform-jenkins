@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 # Create the PostgreSQL RDS instance
 resource "aws_db_instance" "postgres" {
   identifier             = "my-postgres-db"
